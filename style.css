@@ -1620,6 +1620,10 @@ select.form-control {
     padding: var(--space-12) var(--space-16);
   }
 
+   #myAchievements{
+    display: none;
+  }
+
   .hero__avatar {
     width: 150px;
     height: 150px;
