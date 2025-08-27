@@ -1620,10 +1620,6 @@ select.form-control {
     padding: var(--space-12) var(--space-16);
   }
 
-   #myAchievements{
-    display: none;
-  }
-
   .hero__avatar {
     width: 150px;
     height: 150px;
@@ -1662,6 +1658,10 @@ select.form-control {
    margin-left: -60px;
   }
 
+  #myAchievements{
+    display: none;
+  }
+  
   .hero__image{
     margin-top: -170px;
   }
