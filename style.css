@@ -1906,5 +1906,17 @@ select.form-control {
   .achievements {
    display: none;
   }
+  #myachievements{
+    display:none;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Hide Goals item in nav on mobile */
+  .nav a[href="#Achievements"],
+  .nav li.Achievements,
+  #nav-Achievements {
+    display: none !important;
+  }
 }
 
