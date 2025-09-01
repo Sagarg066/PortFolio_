@@ -1672,10 +1672,6 @@ margin-top: 3px;
     padding: var(--space-12) var(--space-16);
   }
 
-  #myAchievements{
-    display: none;
-  }
-
   .hero__avatar {
     width: 150px;
     height: 150px;
@@ -2181,5 +2177,17 @@ html, body {
   padding-right: clamp(1rem, 3vw, 2rem) !important;
   margin-left: auto !important;
   margin-right: auto !important;
+}
+
+/* Show by default on all devices */
+.myAchievements {
+    display: block;
+}
+
+/* Hide on tablets and mobile (1024px and below) */
+@media screen and (max-width: 1024px) {
+    .myAchievements {
+        display: none !important;
+    }
 }
 
