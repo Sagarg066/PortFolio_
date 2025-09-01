@@ -1655,9 +1655,11 @@ select.form-control {
 }
 
 .footer__links a {
-margin-left: 20px;
-margin-top: -20px;
-  color: black !important;
+display: none;
+}
+
+.footer__info{
+    color: white !important;
 }
 
 .timeline-dot {
