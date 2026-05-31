@@ -161,8 +161,8 @@ function initializeHeroButtons() {
             e.preventDefault();
             // Simulate PDF download
             const link = document.createElement('a');
-            link.href = 'Resume.pdf';
-            link.download = 'Resume.pdf';
+            link.href = 'SagarGupta_Resume.pdf';
+            link.download = 'SagarGupta_Resume.pdf';
             document.body.appendChild(link);
             link.click();
             document.body.removeChild(link);
